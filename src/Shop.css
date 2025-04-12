@@ -1,0 +1,87 @@
+.shop-now {
+    padding: 20px;
+  }
+  
+  .category-section {
+    margin-bottom: 40px;
+  }
+  
+  .category-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .products-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    
+    
+  }
+  
+  .product-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain; 
+    border-radius: 8px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .product-card img:hover {
+    transform: scale(1.05); 
+  }
+  .product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .shop-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .shop-link {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-link:hover {
+    background-color: #ddd;
+  }
+  
+/* button styling */
+.btn {
+  background-color: rgb(22, 87, 108); 
+  color: white;             
+  border: none;           
+  padding: 10px 20px;         
+  font-size: 16px;            
+  border-radius: 5px;         
+  cursor: pointer;          
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: darkblue; 
+  color: white;              
+}
